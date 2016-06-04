@@ -1,0 +1,50 @@
+body { background: url("waterfall.jpg") no-repeat center center fixed; 
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+             font-size: 3vh; } 
+
+#container {
+		width: 90vw;
+		margin: 0 auto;
+}
+
+#myContent {
+		-moz-column-count: 3;
+		-moz-column-gap: 0px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 0px;
+		column-count: 3;
+		column-gap: 0px;
+		line-height: 0;
+		width: 90vw;	
+}
+
+#myContent figure{
+		display: inline-block;
+		margin: 0px;
+		width: 100%;
+		height: auto;
+		background-color: Aqua;
+}
+img{
+		margin-bottom: 0px;
+		width: 100%;
+		height: auto;
+}
+figcaption{
+		position: relative;
+		top: 2vh;
+		margin-bottom: 4vh;
+		padding: 0;
+		text-align: center;
+}
+figcaption span{
+		cursor: pointer;
+		margin-left: 4vw;
+		background-color: red;	
+}
+button,input{
+		font-size: 3vh;
+}

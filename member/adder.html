@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>add pin</title>
+    <style type="text/css">
+      body { background: url("puzzle.jpg") no-repeat center center fixed; 
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover; } 
+    form{ margin-top: 20%;
+          margin-left: 20%;
+          background-color: maroon;
+          display: inline-block;
+
+            }
+    </style>
+    
+  </head>
+  <body>
+  <div><button onclick = 'window.location.href = "/member/mywall.html";'>My wall</button></div>
+  <form action="/addLink" method="post">
+    <label>Image link:</label><br/>
+    <input type="text" name="link" placeholder="URL here"/><br/>
+    <label>Image title:</label><br/>
+    <input name="title" placeholder="description"   /><br/>
+    <input type="submit" value="Submit"/>
+  </form>
+  
+  </body>
+  </html>
